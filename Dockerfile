@@ -1,7 +1,7 @@
-FROM t0mmyt/jre8:latest
+FROM openjdk:8
 MAINTAINER Tom Taylor <tom+dockerfiles@tomm.yt>
 
-ENV ES_VER=5.1.1
+ENV ES_VER=5.5.2
 EXPOSE 9200 9300
 
 ENV ES_HOME=/opt/elasticsearch-${ES_VER}
